@@ -1,0 +1,35 @@
+{
+  "dataset_source": "Kaggle Loan Default Prediction Dataset",
+  "raw_records": 255347,
+  "rows_removed": 0,
+  "final_records": 255347,
+  "total_features": 16,
+  "default_rate_pct": "11.61%",
+  "healthy_ranges": [
+    {
+      "parameter": "Credit Score",
+      "healthy": "650 - 850",
+      "unit": "FICO Range"
+    },
+    {
+      "parameter": "Debt-to-Income (DTI)",
+      "healthy": "< 0.35 (35%)",
+      "unit": "Ratio"
+    },
+    {
+      "parameter": "Monthly Income",
+      "healthy": "> $4,500",
+      "unit": "USD / Month"
+    },
+    {
+      "parameter": "Loan-to-Income",
+      "healthy": "< 0.40x",
+      "unit": "Multiplier"
+    },
+    {
+      "parameter": "Interest Rate",
+      "healthy": "5.0% - 12.5%",
+      "unit": "Percentage"
+    }
+  ]
+}

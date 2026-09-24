@@ -1,0 +1,35 @@
+{
+  "scikit_learn": {
+    "algorithm": "Ensemble Random Forest Classifier",
+    "library": "Scikit-Learn (sklearn.ensemble)",
+    "trained_at": "2026-09-23 18:43:27",
+    "hyperparameters": {
+      "n_estimators": 100,
+      "max_depth": 12,
+      "criterion": "gini",
+      "min_samples_split": 2,
+      "min_samples_leaf": 1
+    },
+    "accuracy": "88.6%",
+    "precision": "68.64%",
+    "recall": "3.32%",
+    "f1_score": "6.34%",
+    "roc_auc": "0.7514"
+  },
+  "scratch_implementation": {
+    "algorithm": "Custom Scratch Decision Tree Classifier",
+    "library": "None (Pure Python & NumPy Scratch Implementation)",
+    "trained_at": "2026-09-23 18:43:28",
+    "hyperparameters": {
+      "max_depth": 8,
+      "min_samples_split": 10,
+      "criterion": "Gini Impurity (Scratch Math)",
+      "library_used": false
+    },
+    "accuracy": "88.32%",
+    "precision": "39.71%",
+    "recall": "4.74%",
+    "f1_score": "8.46%",
+    "roc_auc": "0.6722"
+  }
+}
